@@ -66,11 +66,6 @@ const mutations = {
     state.comments = state.comments.map(comment => {
       return comment + 'wut'
     })
-  },
-  INCREMENT_TWO (state) {
-    state.commentsTwo = state.commentsTwo.map(comment => {
-      return comment + 'wut'
-    })
   }
 }
 
