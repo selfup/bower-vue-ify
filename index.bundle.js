@@ -6,7 +6,6 @@
       <section class="app fade-in" v-cloak>
         <h2>{{ message }}</h2>
         <comments :comments='comments' :addindex='addindex'></comments>
-        <a href="/index2.html" class='btn btn-success'>Go To App 2</a>
       </section>
     `,
     vuex: {
