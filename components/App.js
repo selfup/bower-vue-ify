@@ -1,7 +1,6 @@
 (vueGl => {
   vueGl.App = Vue.extend({
     template: `
-      <haml></haml>
       <section class="app fade-in" v-cloak>
         <h2>{{ message }}</h2>
         <comments :comments='comments' :addindex='addindex'></comments>
@@ -15,7 +14,7 @@
     },
     methods: {
       addindex() {
-        store.dispatch('INCREMENT')
+        this.$store.dispatch('INCREMENT')
       }
     }
   })

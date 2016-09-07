@@ -26,6 +26,6 @@ const store = new Vuex.Store({
 })
 
 new Vue({
-  el: 'spa',
+  el: '.spa',
   store
 })
