@@ -1,5 +1,4 @@
 require('./../components/App')
-require('./../components/Haml')
 require('./../components/Comments')
 
 const state = {

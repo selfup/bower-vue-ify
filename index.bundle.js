@@ -39,16 +39,7 @@ Vue.component('app', vueGl.App)
 
 Vue.component('comments', vueGl.Comments)
 },{}],3:[function(require,module,exports){
-((vueGl) => {
-  vueGl.Haml = Vue.extend({
-    template: `<h1>HAML and:</h1>`
-  })
-})(window.vueGl || (window.vueGl = {}))
-
-Vue.component('Haml', vueGl.Haml)
-},{}],4:[function(require,module,exports){
 require('./../components/App')
-require('./../components/Haml')
 require('./../components/Comments')
 
 const state = {
@@ -79,4 +70,4 @@ new Vue({
   store
 })
 
-},{"./../components/App":1,"./../components/Comments":2,"./../components/Haml":3}]},{},[4]);
+},{"./../components/App":1,"./../components/Comments":2}]},{},[3]);
